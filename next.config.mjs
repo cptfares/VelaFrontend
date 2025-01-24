@@ -1,12 +1,10 @@
-// next.config.js
 const path = require("path");
 
 module.exports = {
   reactStrictMode: true,
   swcMinify: true,
   webpack: (config, { isServer }) => {
-    // Example of custom webpack configuration
-    config.resolve.alias["@"] = path.resolve(__dirname);
+    config.resolve.alias["@"] = path.resolve("./");
 
     if (!isServer) {
       config.resolve.fallback.fs = false;
