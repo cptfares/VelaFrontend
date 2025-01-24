@@ -1,5 +1,4 @@
 import path from "path";
-
 export default {
   reactStrictMode: true,
   swcMinify: true,

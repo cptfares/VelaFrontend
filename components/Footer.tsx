@@ -48,6 +48,7 @@ const Footer = () => {
             >
               <a href={info.link}>
                 <Image
+                  alt="just chill guy"
                   src={info.img}
                   width={20} // Specify width
                   height={20} // Specify height
